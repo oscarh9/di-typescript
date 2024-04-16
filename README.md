@@ -24,11 +24,11 @@ La tarea consiste en completar la implementación de los diferentes tipos de for
 
 A través de este ejercicio podemos revisar como deberemos hacer la injección de las dependecias necessarias para que nuestra lógica programatica funcione.
 
-## Introducciones de funcionamiento
+## Instrucciones de funcionamiento
 
 ### Instalación
 
-Para instalar las dependencias del proyecto, ejecute el siguiente comando:
+Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 
 ```bash
 pnpm install
@@ -36,7 +36,15 @@ pnpm install
 
 ### Ejecución
 
-Para ejecutar el proyecto, ejecute el siguiente comando:
+En primer lugar deberás de compilar el proyecto, para ello ejecuta el siguiente comando:
+
+```bash
+npx tsc
+```
+
+Lo que hará este comando es compilar el proyecto y actualizar el archivo app.js.
+
+Para ejecutar el proyecto y ver el resultado, ejecuta el siguiente comando:
 
 ```bash
 node app.js

@@ -1,4 +1,5 @@
-class Books{}
+class Books{
+}
 
 class FormatBook{}
 
