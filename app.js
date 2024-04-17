@@ -1,19 +1,17 @@
 "use strict";
-class Books {
+class Book {
 }
-class FormatBook {
+class PaperBook {
 }
-class Paper {
+class ElectronicBook {
 }
-class Electronic {
+class ParchmentBook {
 }
-class ReadBookFormat {
+class ReadBook {
 }
-class Ebook {
-}
-class Parchment {
-}
-const phisicalBook = "???";
-const digitalBook = "???";
-const phisicalBookFormat = "???";
-const digitalBookFormat = "???";
+const phisicalBook = new PaperBook("Dragones de papel", 350);
+const digitalBook = new ElectronicBook("One piece", 150);
+const readerPaper = new ReadBook(phisicalBook);
+const readerDigital = new ReadBook(digitalBook);
+console.log(readerDigital.read());
+console.log(readerPaper.read());
