@@ -1,4 +1,4 @@
-# Injección de dependecias en TS
+# Inyección de dependecias en TS
 
 ## Introducción
 
@@ -9,11 +9,9 @@ Este ejercicio tiene como objetivo practicar el concepto de inyección de depend
 En este ejercicio, se proporcionan varias clases que representan diferentes aspectos de un sistema de gestión de libros. Las clases incluyen:
 
 - Book: Representa un libro con un título.
-- FormatBook: Representa un tipo de formato del libro.
-- Paper: Representa el formatos de libro en papel.
-- Electronic: Representa el formato del libro en digital.
-- ReadBookFormat: Representa un libro para leer, que incluye un formato de libro y un número de páginas.
-- Ebook: Representa un libro electrónico.
+- PaperBook: Representa el formatos de libro en papel.
+- ElectronicBook: Representa el formato del libro en digital.
+- ReadBook: Representa un libro para leer, que incluye un formato de libro y un número de páginas.
 - Parchment: Representa un libro en pergamino.
 
 Recuerda que solo se proporciona la estructura de las clases y que deberás completar la implementación de las clases para que el programa funcione correctamente.
@@ -22,11 +20,13 @@ Recuerda que solo se proporciona la estructura de las clases y que deberás comp
 
 La tarea consiste en completar la implementación de los diferentes tipos de formato que nos podemos encontrar de libros.
 
-A través de este ejercicio podemos revisar como deberemos hacer la injección de las dependecias necessarias para que nuestra lógica programatica funcione.
+La finalidad es conseguir un lector libro que nos diga el formato en cual se puede leer.
 
 ## Instrucciones de funcionamiento
 
 ### Instalación
+
+Clona este repositorio
 
 Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 
